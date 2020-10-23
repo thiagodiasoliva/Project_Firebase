@@ -15,6 +15,9 @@
 <body>
     <h1>REAL TIME DATABASE</h1>
 
+    <ul id="userList"></ul>
+    <hr>
+
     <div class="col-md-4">
         <form>
             <div class="form-group">
@@ -27,9 +30,11 @@
                 <input type="number" class="form-control" id="ageInput" placeholder="Idade">
 
 
-                <button class="btn btn-lg btn-block btn-primary" id="addButton">Adicionar</button>
+                
             </div>
 
+            <br><br>
+            <button class="btn btn-lg btn-block btn-primary" id="addButton">Adicionar</button>
         </form>
     </div>
 
@@ -41,6 +46,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
     <script src="app.js"></script>
+    <script src="realtime.js"></script>
 </body>
 
 </html>
